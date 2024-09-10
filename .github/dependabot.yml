@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: 'bundler'
+    directories:
+      - '/one'
+      - '/two'
+    schedule:
+      interval: 'weekly'
+    groups:
+      everything:
+        patterns:
+        - "*"

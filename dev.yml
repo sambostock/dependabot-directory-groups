@@ -1,0 +1,6 @@
+up:
+  - ruby
+  - bundler:
+      gemfile: one/Gemfile
+  - bundler:
+      gemfile: two/Gemfile
